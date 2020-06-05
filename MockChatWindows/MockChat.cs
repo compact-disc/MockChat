@@ -10,13 +10,14 @@ using System.Windows.Forms;
 
 namespace MockChatWindows
 {
-    public partial class Form1 : Form
+    public partial class MockChat : Form
     {
 
 
-        public Form1()
+        public MockChat()
         {
             InitializeComponent();
+            this.ActiveControl = textEntryBox;
         }
 
         private void MockButtonClick(object sender, EventArgs e)
@@ -35,6 +36,23 @@ namespace MockChatWindows
         {
             mockTextBox.SelectionStart = 0;
             mockTextBox.SelectionLength = mockTextBox.Text.Length;
+            Clipboard.SetText(mockTextBox.Text);
+        }
+
+        private void FileClose(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
+
+        private void About(object sender, EventArgs e)
+        {
+            About about = new About();
+            about.Show();
+        }
+
+        private void CloseButton(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
         }
 
         private String Mock(String mockText)

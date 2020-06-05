@@ -8,11 +8,14 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Mock Chat|Any CPU = Mock Chat|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{51D625BF-34EF-4D98-B8E5-037147128C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{51D625BF-34EF-4D98-B8E5-037147128C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D625BF-34EF-4D98-B8E5-037147128C5C}.Mock Chat|Any CPU.ActiveCfg = Release|Any CPU
+		{51D625BF-34EF-4D98-B8E5-037147128C5C}.Mock Chat|Any CPU.Build.0 = Release|Any CPU
 		{51D625BF-34EF-4D98-B8E5-037147128C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51D625BF-34EF-4D98-B8E5-037147128C5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
